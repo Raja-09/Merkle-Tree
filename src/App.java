@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-
 public class App {
 
     public static Node generateTree(ArrayList<String> dataBlocks) {
@@ -77,10 +76,10 @@ public class App {
 
     public static void main(String[] args) {
         ArrayList<String> dataBlocks = new ArrayList<>();
-        dataBlocks.add("Captain America");
-        dataBlocks.add("Iron Man");
-        dataBlocks.add("God of thunder");
-        dataBlocks.add("Doctor strange");
+        dataBlocks.add("Java programming");
+        dataBlocks.add("C ++ Programming");
+        dataBlocks.add("Python Programming");
+        dataBlocks.add("JavaScript");
         Node root = generateTree(dataBlocks);
         printLevelOrderTraversal(root);
     }
