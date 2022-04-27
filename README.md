@@ -3,9 +3,10 @@
 - `Name` : Raja Aravindha A
 - `Regno` : 20BCE2927
 
-## Folder Structure
+## Merkle Tree
 
-The workspace contains two folders by default, where:
+# Introduction to Merkle Tree 
+    
 
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
