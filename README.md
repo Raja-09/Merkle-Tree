@@ -33,7 +33,7 @@ Merkle trees have very little overhead when compared with hash lists. Binary Mer
    We are using the keccak 256 cryptography algorithm for this implementation.
    keccak 256 is a part of SHA 3(Secure Hash Algorithm) standard.
  </b>
-
+ <br>
 
   <img src = "./merkletreeTC.png" />
   
