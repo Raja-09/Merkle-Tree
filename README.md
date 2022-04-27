@@ -29,6 +29,12 @@ In this image, we see an input of data broken up into blocks labeled L1 though L
 **Time Complexity**
 Merkle trees have very little overhead when compared with hash lists. Binary Merkle trees, like the one pictured above, operate similarly to binary search trees in that their depth is bounded by their branching factor, 2. Included below is worst-case analysis for a Merkle tree with a branching factor of kk.
 
+ <b>
+   We are using the keccak 256 cryptography algorithm for this implementation.
+   keccak 256 is a part of SHA 3(Secure Hash Algorithm) standard.
+ </b>
+
+
   <img src = "./merkletreeTC.png" />
   
 # Applications 
