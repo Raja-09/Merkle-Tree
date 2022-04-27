@@ -7,10 +7,10 @@
 
 # Introduction to Merkle Tree
 
-  Merkle tree also known as hash tree is a data structure used for data verification and synchronization. 
-  Merkle tree is a tree data structure with leaf nodes and non leaf nodes. It also known as <b>Hash tree</b>.
-  The reason behind it is it only stores the hashes in its nodes instead of data. In its leaf nodes, it will store the hash of the data. Non leaf nodes contain the hash of its children. 
-  
+Merkle tree also known as hash tree is a data structure used for data verification and synchronization.
+Merkle tree is a tree data structure with leaf nodes and non leaf nodes. It also known as <b>Hash tree</b>.
+The reason behind it is it only stores the hashes in its nodes instead of data. In its leaf nodes, it will store the hash of the data. Non leaf nodes contain the hash of its children.
+
   <li>Hash trees allow efficient and secure verification of the contents of large data structures. Hash trees are a generalization of hash lists and hash chains.
    <li>If we want to know where data change has occurred then we can check if data is consistent with root hash and we will not have to traverse the whole structure but only a small part of the structure.
 <li>The root hash is used as the fingerprint for the entire data
@@ -24,16 +24,24 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Hash_Tree.svg/1920px-Hash_Tree.svg.png" />
 In this image, we see an input of data broken up into blocks labeled L1 though L4. Each of these blocks are hashed using some hash function. Then each pair of nodes are recursively hashed until we reach the root node, which is a hash of all nodes below it.
 
-  
- # Algorithm 
-  **Time Complexity** 
-  Merkle trees have very little overhead when compared with hash lists. Binary Merkle trees, like the one pictured above, operate similarly to binary search trees in that their depth is bounded by their branching factor, 2. Included below is worst-case analysis for a Merkle tree with a branching factor of kk.
-  
+# Algorithm
+
+**Time Complexity**
+Merkle trees have very little overhead when compared with hash lists. Binary Merkle trees, like the one pictured above, operate similarly to binary search trees in that their depth is bounded by their branching factor, 2. Included below is worst-case analysis for a Merkle tree with a branching factor of kk.
+
   <img src = "./merkletreeTC.png" />
   
+# Applications 
+  - **Version Control System :** Git, a distributed version control system, is one of the most widely used. It is used to handle projects by programmers from all around the world.
+  - **Interplanetary File System**, a peer-to-peer distributed protocol, is another suitable implementation. It's also open-source, allowing computers to join and use a centralized file system.
+  - **Amazon DynamoDB and Apache Cassandra** use it during the data replication process. These No-SQL distributed databases use Merkle trees to control discrepancies.
   
   
  
   
  # References
-    - 
+  - wikipedia
+  - Github : Simone Stephani 
+  - Github : richpl
+  - Github : piotrmurach 
+  - GeeksForGeeks
