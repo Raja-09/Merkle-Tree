@@ -41,7 +41,8 @@ Merkle trees have very little overhead when compared with hash lists. Binary Mer
   
  # References
   - wikipedia
-  - Github : Simone Stephani 
-  - Github : richpl
-  - Github : piotrmurach 
+  - Github : <a href="https://www.github.com/SimoneStephani">Simone Stephani </a>
+  - Github : <a href="https://www.github.com/richpl">richpl</a>
+  - Github : <a href="https://www.github.com/piotrmurach">piotrmurach </a>
+  - <a href="https://www.pranaybathini.com/2021/05/merkle-tree.html">Pranay Bathini Artilce</a>
   - GeeksForGeeks
